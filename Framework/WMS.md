@@ -1,3 +1,7 @@
+## Windows
+查看窗口层级树：
+dumpsys window containers
+
 # UI框架
 UI框架
       --窗口管理
