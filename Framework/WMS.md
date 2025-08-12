@@ -72,27 +72,27 @@ UI框架
 
 ## 动画
 请求动画：
-Requesting StartTransition:|Starting Transition
-动画开始，动画参数info：
-WindowManagerShell: onTransitionReady|Set transition ready
-结束动画,请求到结束的时间：
-finishTransition transition|WindowManager: Finish Transition
-收集动画：
-Collecting in|Checking filter Pair
-可见性：
-WindowManager: commitVisibility:|Transition: hasChanged
-动画类型:
-WindowManagerShell: start
-动画堆栈：
-TransitionController:
-动画发起方：
-animated by
-动画info：
-WindowManager:     info=
+Requesting StartTransition:|Starting Transition  
+动画开始，动画参数info：  
+WindowManagerShell: onTransitionReady|Set transition ready  
+结束动画,请求到结束的时间：  
+finishTransition transition|WindowManager: Finish Transition  
+收集动画：  
+Collecting in|Checking filter Pair  
+可见性：  
+WindowManager: commitVisibility:|Transition: hasChanged  
+动画类型: 
+WindowManagerShell: start  
+动画堆栈： 
+TransitionController:  
+动画发起方：  
+animated by  
+动画info：  
+WindowManager:     info=  
  
  
  
-关键动画流程：
-请求动画                 开始动画         结束动画
-Requesting StartTransition:|onTransitionReady|Finish Transition
+关键动画流程： 
+请求动画                 开始动画         结束动画  
+Requesting StartTransition:|onTransitionReady|Finish Transition  
 
